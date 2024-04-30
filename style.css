@@ -19,6 +19,12 @@ h1 {
     color: #222;
 }
 
+h5 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +38,7 @@ h1 {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 6px;
+    height: 600px;
     overflow: auto;
     background-color: white;
     border: 1px solid #d1d5da;
@@ -39,7 +46,7 @@ h1 {
 
 #editor {
     width: 100%;
-    height: 600px;
+    height: 500px;
     border: 1px solid #d1d5da;
     border-radius: 6px;
     padding: 10px;
@@ -50,7 +57,7 @@ h1 {
 #preview {
     width: 100%;
     min-height: 300px;
-    height: 600px;
+    height: 500px;
     padding: 10px;
     border: 1px solid #d1d5da;
     border-radius: 6px;
